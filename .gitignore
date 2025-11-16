@@ -4,5 +4,11 @@ dist/
 .DS_Store
 .vscode/
 coverage/
-.idea/
-*.log   
+.idea/  
+*.log  
+package-lock.json
+yarn.lock
+.nuxt/
+.next/
+build/
+out/        
