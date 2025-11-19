@@ -16,16 +16,8 @@ function AboutHomeThree({ className }) {
                                     <span className="sub-title">About Our Company</span>
                                     <h2 className='fs-1'>IT INFRASTRUCTURES | SECURITY SYSTEMS | ELV SOLUTIONS</h2>
                                     <div className="text">
-                                        We are Coral Plus Security, A name in IT infrastructures , Security Systems
-                                        and ELV Solution providers in the U.A.E. Founded by a team of talented and
-                                        achievement-oriented professionals. We strive to balance leading-edge technology with
-                                        highly skilled resources to deliver cost-effective, reliable, and secure solutions that meet
-                                        or fulfill customer's needs. Over the years, we have built up a network of over-satisfied
-                                        customers in the region. The company is the best in supplying and installing electronics
-                                        surveillance, security & IT solutions, and ELV solutions. We are proud of the agility in
-                                        international trade and business. We offer tailor-made solutions for Government
-                                        Establishments, Corporate Organizations, Offices, Buildings, Hotels, Hotel Apartments,
-                                        Shopping Malls, Hospital, & Banks, etc.
+                                        ITGuy.ae is a professional IT & security services brand operated under Manam Trading (FZC) — licensed to provide IT infrastructure and security system installation & maintenance across Dubai, Sharjah, and Ajman.
+                                        We focus on delivering reliable, efficient, and cost-effective solutions for residential, commercial, and retail customers.
                                        
                                     </div>
                                 </div>

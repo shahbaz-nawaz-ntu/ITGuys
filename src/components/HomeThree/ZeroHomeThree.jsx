@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 // Importing the images
 import ArrowIcon from '../../assets/images/main-slider/arrow.png'; // Arrow icon
-import Image1 from '../../assets/images/main-slider/3.jpeg'; // First image
+import Image1 from '../../assets/images/main-slider/3abd.jpeg'; // First image
 import Image2 from '../../assets/images/main-slider/3.jpeg'; // Second image (use a different image if needed)
 
 const swiperOptions = {
@@ -35,8 +35,9 @@ function BannerSectionTwo({ className }) {
                         <div className="bg-image" style={{ backgroundImage: `url(${Image1})`, filter: "blur(5px)"}}></div>
                         <div className="auto-container ">
                             <div className="content-box">
-                                <span className="animate-2 texxt fs-5 ">Your Security is our First Priority</span>
-                                <h1 className="title animate-3">Security and IT Solutions for Home & Business</h1>
+                                <span className="animate-2 texxt fs-5 ">Reliable setup, fast support, and smart protection for homes, offices, and commercial spaces.
+</span>
+                                <h1 className="title animate-3">Professional IT & Security System Installation in Dubai</h1>
                                 
                                 <div className="btn-box animate-4">
                                     <a  href="#offer" className="theme-btn btn-style-one">

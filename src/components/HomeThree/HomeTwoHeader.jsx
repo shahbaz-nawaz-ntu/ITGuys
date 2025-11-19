@@ -50,8 +50,8 @@ function Header({ action, className, scroll }) {
 
                         <div className="top-right">
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:info@coralplus.ae">info@coralplus.ae</Link ></li>
-                                <li><i className="fa fa-map-marker"></i> Deira, Dubai, U.A.E.</li>
+                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:itguy.ae@gmail.com">info@itguy.ae</Link ></li>
+                                <li><i className="fa fa-map-marker"></i> Dubai, Sharjah, Ajman</li>
                             </ul>
                         </div>
                     </div>

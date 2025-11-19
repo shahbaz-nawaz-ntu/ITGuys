@@ -19,11 +19,11 @@ function FooterHomeOne({ className }) {
                             <div className="footer-widget about-widget">
                                 <div className="logo">
                                     <Link to="/"><img src={logo1} alt="Logo" /></Link >
-                                    <span className='text-sm ml-sm-90 ml-70   '>License No. 323886</span>
+                                    <span className='text-sm ml-sm-90 ml-70   '>License No. SC242015901</span>
                                 </div>
                                 {/* <div className="text fs-5">To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
                                     and help our clients to improve business efficiency.</div> */}
-                                    <div className="text fs-5">Disclaimer !<br/>All solutions and installations are designed in accordance with SIRA standards and Dubai security regulations.<br/>
+                                    <div className="text fs-5">Disclaimer !<br/>Authorized for IT infrastructure & Security/Surveilliance Systems Installation & Maintenance.<br/>
                                     
                                     </div>
                                 {/* <ul className="social-icon-two">
@@ -54,13 +54,13 @@ function FooterHomeOne({ className }) {
                             <div className="footer-widget contact-widget">
                                 <h3 className="widget-title  fs-3">Contact us</h3>
                                 <div className="widget-content">
-                                    <div className="text fs-5">Deira, Dubai, U.A.E.</div>
+                                    <div className="text fs-5">Dubai, Sharjah, Ajman</div>
                                     <ul className="contact-info">
-                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:info@coralplus.ae">info@coralplus.ae</Link ></li>
+                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:itguy.ae@gmail.com">itguy.ae</Link ></li>
                                         <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975">+971588996975</Link >
                                             {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
                                         </li>
-                                        <li className=''><i className='fa fa-building '></i><p className='fs-6 text-white'>102-C4, Muteena, Deira, Dubai.</p></li>
+                                        <li className=''><i className='fa fa-clock '></i><p className='fs-6 text-white'>9AM-9PM</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ function FooterHomeOne({ className }) {
             <div className="footer-bottom ">
                 <div className="auto-container d-flex justify-content-center bg-transparent">
                     <div className="inner-container">
-                        <div className="copyright-text">&copy; 2025 Coral Plus Security Systems LLC. All rights reserved. <Link to="/">coralplus.ae</Link ></div>
+                        <div className="copyright-text">&copy; 2025 IT Guys LLC. All rights reserved. <Link to="/">itguy.ae</Link ></div>
                     </div>
                 </div>
             </div>

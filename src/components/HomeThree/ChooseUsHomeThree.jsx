@@ -19,17 +19,11 @@ function ChooseUs() {
                                     <span className="sub-title">Why choose our company</span>
                                     <h2>Why you Should Choose Our Services?</h2>
                                     <div className="text">
-                                        Our team has helped several businesses be successful with their installed system.
-                                        We use this knowledge and expertise to help our clients take their business to the next level
-                                        with the best Surveillance/IT/ELV system.
-                                        Our customers choose us because we provide the best solution, and deliver unmatched
-                                        services and training, and offer some of the best value in the industry.
-                                        Regardless of the project size and complexity, we strive to provide our customers with
-                                        great technology, differentiated products, and unmatched engineering services delivered
-                                        within a flexible and cost-effective business model that meets our customer’s needs.
-                                        Highly Qualified and well-trained Engineers and technicians
-                                        Updated technology and equipment to satisfy our customers' needs.
-                                        We design and install CCTV & ELV systems in full compliance with SIRA standards, helping clients meet Dubai’s security requirements.
+                                        We offer trusted IT and security installation services, delivering professional and fully compliant solutions.
+                                        Our certified technicians are highly skilled in ELV and IT systems, providing same-day service across Dubai, Sharjah, and Ajman.
+                                        We use only high-quality materials, including long-life cables, strong brackets, and reliable devices. 
+                                        To ensure long-term support, we provide 24/7 after-service with online troubleshooting and regular maintenance. 
+                                        All our services come with the best market pricing, transparent quotations, and full warranty.
                                         {/* All Kinds of Approvals related to our system from Govt agencies without any delay or
                                         any risk to the clients. */}
                                         {/* We view ourselves as a vital part of each of our client’s teams and know our success
