@@ -67,9 +67,9 @@ function FooterHomeOne({ className }) {
                         </div>
 
                         <ul className="social-icon-two d-flex flex-row align-items-center justify-content-xl-between flex-xl-column">
-                            <li><Link to="https://www.facebook.com/share/1G5YY3q2tS/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
-                            <li><Link to="https://www.tiktok.com/@coralplus.ae?_t=ZS-8wJc6gWSPDh&_r=1"><i className="fab fa-tiktok"></i></Link></li>
-                            <li><Link to="https://g.co/kgs/p5DpJ8q"><i className="fab fa-google"></i></Link></li>
+                            <li><Link to="https://www.facebook.com/share/19sKHxVvjn/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
+                            <li><Link to="https://www.tiktok.com/@itguy.ae?_r=1&_t=ZS-91X9pJlL7aO"><i className="fab fa-tiktok"></i></Link></li>
+                            <li><Link to="https://share.google/EtgQgHHTLNCrqz6zL "><i className="fab fa-google"></i></Link></li>
                             <li><Link to="https://wa.me/971588996975"
                                 target="_blank"
                                 rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>
