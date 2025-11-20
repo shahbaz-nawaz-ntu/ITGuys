@@ -67,7 +67,7 @@ function FooterHomeOne({ className }) {
                         </div>
 
                         <ul className="social-icon-two d-flex flex-row align-items-center justify-content-xl-between flex-xl-column">
-                            <li><Link to="https://www.facebook.com/share/19sKHxVvjn/?mibextid=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
+                            <li><Link to="https://www.facebook.com/share/19sKHxVvjn/?mibextidgit=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
                             <li><Link to="https://www.tiktok.com/@itguy.ae?_r=1&_t=ZS-91X9pJlL7aO"><i className="fab fa-tiktok"></i></Link></li>
                             <li><Link to="https://share.google/EtgQgHHTLNCrqz6zL "><i className="fab fa-google"></i></Link></li>
                             <li><Link to="https://wa.me/971588996975"
