@@ -14,6 +14,22 @@ Copyright (c) 2015 Daniel Eden
   animation-fill-mode: both;
 }
 
+/* Hide small logo by default */
+.logo-small {
+  display: none !important;
+}
+
+/* When screen is below 700px */
+@media (max-width: 1023px) {
+  .logo-large {
+    display: none !important;
+  }
+
+  .logo-small {
+    display: block !important;
+  }
+}
+
 .texxt{
   color: orange;
   font-weight: bold;

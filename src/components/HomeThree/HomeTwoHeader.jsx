@@ -50,7 +50,7 @@ function Header({ action, className, scroll }) {
 
                         <div className="top-right">
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:itguy.ae@gmail.com">info@itguy.ae</Link ></li>
+                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:itguy.ae@gmail.com"> itguy.ae@gmail.com</Link ></li>
                                 <li><i className="fa fa-map-marker"></i> Dubai, Sharjah, Ajman</li>
                             </ul>
                         </div>
@@ -64,7 +64,10 @@ function Header({ action, className, scroll }) {
                 <div className="auto-container ">
                     <div className="main-box ">
                         <div className="logo-box ">
-                            <div className="logo">
+                            <div className="logo logo-small">
+                                <Link  to="/"><img src={logo2} alt="Oitech" title="Oitech" /></Link >
+                            </div>
+                            <div className="logo logo-large">
                                 <Link  to="/"><img src={logo1} alt="Oitech" title="Oitech" /></Link >
                             </div>
                         </div>
@@ -97,7 +100,7 @@ function Header({ action, className, scroll }) {
                 <nav className="menu-box">
                     <div className="upper-box">
                         <div className="nav-logo">
-                            <Link  to="/"><img src={logo6} alt="Oitech" title="Oitech" /></Link >
+                            <Link  to="/"><img src={logo2} alt="Oitech" title="Oitech" /></Link >
                             {/* <Link className='ml-15'  to="/"><img src={logo5} alt="Oitech" /></Link > */}
                         </div>
                         <div className="close-btn" onClick={closeMobileMenu}>
@@ -119,7 +122,7 @@ function Header({ action, className, scroll }) {
                             <div className="contact-info-box">
                                 <span className="icon lnr-icon-envelope1"></span>
                                 <span className="title">Send Email</span>
-                                <a href="itguy.ae@gmail.com">itguy.ae</a>
+                                <a href="itguy.ae@gmail.com"> itguy.ae@gmail.com</a>
                             </div>
                         </li>
                         {/* <li> */}

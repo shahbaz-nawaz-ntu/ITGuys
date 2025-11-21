@@ -33,6 +33,16 @@ function HomeThreegridService() {
     description: "Public address and speaker system installations",
     icon: "/your-icon-path-here.png",
   },
+  {
+    title: "Lights Fixing",
+    description: "Electrical lighting solutions for shops, offices, and homes",
+    icon: "/icons/lights-fixing.png", // replace with your icon
+  },
+  {
+    title: "Drawings/Layout",
+    description: "ELV, MEP, SSD, SPC, and SVG drawings/plans",
+    icon: "/icons/drawings.png", // replace with your icon
+  },
 ];
 
   return (

@@ -29,7 +29,7 @@ function HomeThree() {
             <OfferSectionTwo />
             <ChooseUs />
             <CallToActionHomeTwo />
-            <ContactSectionTwo />
+            {/* <ContactSectionTwo /> */}
             <FooterHomeOne />
             
             <BackToTop />
