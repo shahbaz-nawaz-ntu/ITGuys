@@ -11,6 +11,7 @@ import OfferSectionTwo from './Offer.jsx';
 import ChooseUs from './ChooseUsHomeThree.jsx';
 import CallToActionHomeTwo from './CallToActionHomeTwo.jsx';
 import ContactSectionTwo from './Contact.jsx';
+import HomeThreegridService from './HomeThreegridService.jsx';
 
 function HomeThree() {
     const [drawer, drawerAction] = useToggle(false);
@@ -21,7 +22,8 @@ function HomeThree() {
             <HomeThreeHeader action={drawerAction.toggle} />
             <ZeroHomeThree />
             <ClientHomeOne />
-            <ServicesHomeThree />
+            <HomeThreegridService />
+            {/* <ServicesHomeThree /> */}
             <AboutHomeThree />
             <VideoHomeTwo />
             <OfferSectionTwo />
