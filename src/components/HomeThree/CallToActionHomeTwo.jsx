@@ -17,7 +17,7 @@ function CallToActionHomeTwo({ className }) {
                     <h1 className="title">
                          Looking for the Best <br />Security & IT Solutions?
                     </h1>
-                    <Link  to="/" className="theme-btn btn-style-one hvr-light">
+                    <Link  to="https://wa.me/971588996975" className="theme-btn btn-style-one hvr-light">
                         <span className="btn-title">get in touch</span>
                     </Link >
                 </div>
