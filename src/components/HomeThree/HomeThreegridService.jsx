@@ -1,4 +1,11 @@
-import React from 'react'
+import CCTV from "../../assets/images/Service Icon/CCTV.png"
+import AccessControl from '../../assets/images/Service Icon/AccessControl.png'
+import Intercom from '../../assets/images/Service Icon/Intercom.png'
+import TelephonSystem from '../../assets/images/Service Icon/TelephonSystem.png'
+import Attendance from '../../assets/images/Service Icon/Attendance.png'
+import Speaker from '../../assets/images/Service Icon/Speaker.png'
+import LightsFixing from '../../assets/images/Service Icon/LightsFixing.png'
+import Drawing from '../../assets/images/Service Icon/Drawing.png'
 
 function HomeThreegridService() {
 
@@ -6,42 +13,42 @@ function HomeThreegridService() {
   {
     title: "CCTV Camera Installation",
     description: "Professional surveillance camera setup for your property",
-    icon: "/your-icon-path-here.png",
+    icon: `${CCTV}`,
   },
   {
     title: "Access Control",
     description: "Secure door access solutions for buildings and gateways",
-    icon: "/your-icon-path-here.png",
+    icon: `${AccessControl}`,
   },
   {
     title: "Intercom",
     description: "Audio and video entry systems for homes and businesses",
-    icon: "/your-icon-path-here.png",
+    icon: `${Intercom}`,
   },
   {
     title: "Telephone Systems",
     description: "PABX and VoIP telephone solutions for offices",
-    icon: "/your-icon-path-here.png",
+    icon: `${TelephonSystem}`,
   },
   {
     title: "Attendance Machine",
     description: "Fingerprint, card and code-based attendance systems",
-    icon: "/your-icon-path-here.png",
+    icon: `${Attendance}`,
   },
   {
     title: "Speaker System",
     description: "Public address and speaker system installations",
-    icon: "/your-icon-path-here.png",
+    icon: `${Speaker}`,
   },
   {
     title: "Lights Fixing",
     description: "Electrical lighting solutions for shops, offices, and homes",
-    icon: "/icons/lights-fixing.png", // replace with your icon
+    icon:  `${LightsFixing}`, // replace with your icon
   },
   {
     title: "Drawings/Layout",
     description: "ELV, MEP, SSD, SPC, and SVG drawings/plans",
-    icon: "/icons/drawings.png", // replace with your icon
+    icon: `${Drawing}`, // replace with your icon
   },
 ];
 
