@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import AboutImage1 from '../../assets/images/resource/about-9.jpeg';
-import AboutImage2 from '../../assets/images/resource/about-10.jpg';
+import AboutImage1 from '../../assets/images/resource/why-us-3.jpeg';
+// import AboutImage2 from '../../assets/images/resource/about-10.jpg';
 import AboutThumb from '../../assets/images/resource/thumb-1.jpg';
 function AboutHomeThree({ className }) {
     return (
@@ -14,11 +14,10 @@ function AboutHomeThree({ className }) {
                             <div className="inner-column">
                                 <div className="sec-title">
                                     <span className="sub-title">About Our Company</span>
-                                    <h2 className='fs-1'>IT INFRASTRUCTURES | SECURITY SYSTEMS | ELV SOLUTIONS</h2>
+                                    <p><h2 className='fs-1'>IT INFRASTRUCTURES | SECURITY SYSTEMS |</h2><h2 className='fs-1'>ELV SOLUTIONS</h2></p>
                                     <div className="text">
-                                        ITGuy.ae is a professional IT & security services brand operated under Manam Trading (FZC) — licensed to provide IT infrastructure and security system installation & maintenance across Dubai, Sharjah, and Ajman.
+                                        ITGuy.ae is a professional IT & security services brand licensed to provide IT infrastructure and security system installation & maintenance across Dubai, Sharjah, and Ajman.
                                         We focus on delivering reliable, efficient, and cost-effective solutions for residential, commercial, and retail customers.
-                                       
                                     </div>
                                 </div>
 
@@ -52,9 +51,9 @@ function AboutHomeThree({ className }) {
                                 <figure className="image-1 overlay-anim wow fadeInUp">
                                     <img className='' src={AboutImage1} alt="About 9"/>
                                 </figure>
-                                <figure className="image-2 overlay-anim wow fadeInRight">
+                                {/* <figure className="image-2 overlay-anim wow fadeInRight">
                                     <img src={AboutImage2} alt="About 10"/>
-                                </figure>
+                                </figure> */}
                             </div>
                         </div>
                     </div>

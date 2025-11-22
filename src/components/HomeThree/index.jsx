@@ -21,7 +21,7 @@ function HomeThree() {
             
             <HomeThreeHeader action={drawerAction.toggle} />
             <ZeroHomeThree />
-            <ClientHomeOne />
+            {/* <ClientHomeOne /> */}
             <HomeThreegridService />
             {/* <ServicesHomeThree /> */}
             <AboutHomeThree />

@@ -35,7 +35,7 @@ function BannerSectionTwo({ className }) {
                         <div className="bg-image" style={{ backgroundImage: `url(${Image1})`, filter: "blur(5px)"}}></div>
                         <div className="auto-container ">
                             <div className="content-box">
-                                <span className="animate-2 texxt fs-5 ">Reliable setup, fast support, and smart protection for homes, offices, and commercial spaces.
+                                <span className="animate-2 texxt fs-5 ">Reliable setup, fast support, and smart protection <br/> for homes, offices, and commercial spaces.
 </span>
                                 <h1 className="title animate-3">Professional IT & Security System Installation in Dubai</h1>
                                 

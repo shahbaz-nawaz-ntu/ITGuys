@@ -57,7 +57,7 @@ function HomeThreegridService() {
       <div className="container text-center">
         <h2 className="fw-bold mb-2">Our Services</h2>
         <p className="text-muted mb-5">
-          Professional IT & Security Services for Homes and Businesses
+          Professional IT & Security Services <br/> for Homes and Businesses
         </p>
 
         <div className="row g-4">

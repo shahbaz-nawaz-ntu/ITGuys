@@ -62,8 +62,8 @@ const MobileMenu = () => {
                 </ul> */}
                
             </li>
-            <li>
-                <li><a  href="#clients">Clients</a ></li>
+            {/* <li> */}
+                {/* <li><a  href="#clients">Clients</a ></li> */}
                 {/* <ul className={isActive.key === 5 ? "d-block" : "d-none"}>
                     <li><Link  to="/services">Services List</Link ></li>
                     <li><Link  to="/service-details">Service Details</Link ></li>
@@ -71,7 +71,7 @@ const MobileMenu = () => {
                 {/* <div className={isActive.key === 5 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(5)} >
                     <i className="fa fa-angle-down"></i>
                 </div> */}
-            </li>
+            {/* </li> */}
             {/* <li className="dropdown">
                 <Link  to="#">Shop</Link >
                 <ul className={isActive.key === 6 ? "d-block" : "d-none"}>
@@ -99,7 +99,7 @@ const MobileMenu = () => {
            {/* <li><a href="/company-profile.pdf" download>
   Download Company Profile (PDF)
 </a></li> */}
-           <li><PDFViewer className="text-light"/></li> 
+           {/* <li><PDFViewer className="text-light"/></li>  */}
         </ul>
 
         </>
