@@ -23,7 +23,7 @@ function FooterHomeOne({ className }) {
                                 </div>
                                 {/* <div className="text fs-5">To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
                                     and help our clients to improve business efficiency.</div> */}
-                                    <div className="text fs-5">Disclaimer !<br/>ITGuy.ae, a brand of Manam Trading (FZC) under SRTIP License No. SC242015901, provides IT infrastructure and security/surveillance services.<br/>
+                                    <div className="text fs-7">Disclaimer !<br/>ITGuy.ae, a brand of Manam Trading (FZC) under SRTIP License No. SC242015901, provides IT infrastructure and security/surveillance services.<br/>
                                     
                                     </div>
                                 {/* <ul className="social-icon-two">
