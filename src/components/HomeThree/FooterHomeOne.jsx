@@ -23,7 +23,7 @@ function FooterHomeOne({ className }) {
                                 </div>
                                 {/* <div className="text fs-5">To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
                                     and help our clients to improve business efficiency.</div> */}
-                                    <div className="smallTextDis">Disclaimer !<br/>Disclaimer: ITGuy.ae is a registered service provider authorized under SRTIP License No. SC242015901 to deliver professional IT infrastructure and security surveillance solutions.
+                                    <div className="smallTextDis">Disclaimer !<br/>ITGuy.ae is a registered service provider authorized under SRTIP License No. SC242015901 to deliver professional IT infrastructure and security surveillance solutions.
                                     </div>
                                 {/* <ul className="social-icon-two">
                                     <li><Link  to="#"><i className="fab fa-twitter"></i></Link ></li>
