@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo1 from "../../assets/images/logo3.png";
+import logo1 from "../../assets/images/logo.png";
 import Image1 from '../../assets/images/background/2.jpg';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -15,9 +15,9 @@ function FooterHomeOne({ className }) {
                 <div className="auto-container w-100">
                     <div className="d-flex align-item-center justify-content-between flex-xl-row flex-column ">
                         {/* Footer Column - About */}
-                        <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
-                            <div className="footer-widget">
-                                <div className="logo ">
+                        <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12 ">
+                            <div className="footer-widget about-widget">
+                                <div className="logo">
                                     <Link to="/"><img src={logo1} alt="Logo" /></Link >
                                     {/* <span className='text-sm ml-sm-90 ml-70   '>License No. SC242015901</span> */}
                                 </div>
