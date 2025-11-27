@@ -105,7 +105,7 @@ function HomeThreegridService() {
 
         <div className="row g-4">
           {services.map((service, i) => (
-            <div className="col-12 col-md-6" key={i}>
+            <div className="col-12 col-md-6" key={i} id={service.title.replace(/\s+/g, '-').toLowerCase()}>
               <div className="p-4 border rounded bg-white h-100 shadow-sm">
                 <img
                   src={service.icon}
