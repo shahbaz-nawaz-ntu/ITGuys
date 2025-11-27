@@ -3,6 +3,15 @@ import { Link  } from 'react-router-dom';
 import BackgroundImage from '../../assets/images/background/1.jpg';
 import IconLogo from '../../assets/images/resource/icon-logo.png'; 
 function CallToActionHomeTwo({ className }) {
+    const handleQuoteClick = () => {
+  if (window.dataLayer) {
+    window.dataLayer.push({
+      event: "quote_button_click",
+    });
+  }
+
+  // existing functionality (WhatsApp / popup / scroll)
+};
     return (
         <section
             className={`call-to-action mb-40 alternate ${className || ''}`}
@@ -17,7 +26,7 @@ function CallToActionHomeTwo({ className }) {
                     <h1 className="title">
                          Looking for the Best <br />Security & IT Solutions?
                     </h1>
-                    <Link  to="https://wa.me/971588996975" className="theme-btn btn-style-one hvr-light">
+                    <Link  to="https://wa.me/971588996975" onClick={handleQuoteClick} className="theme-btn btn-style-one hvr-light">
                         <span className="btn-title">get in touch</span>
                     </Link >
                 </div>

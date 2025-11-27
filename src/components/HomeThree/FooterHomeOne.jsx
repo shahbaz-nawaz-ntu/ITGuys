@@ -6,6 +6,16 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 function FooterHomeOne({ className }) {
+
+    const handleQuoteClick = () => {
+  if (window.dataLayer) {
+    window.dataLayer.push({
+      event: "quote_button_click",
+    });
+  }
+
+  // existing functionality (WhatsApp / popup / scroll)
+};
     return (
         <footer className={`main-footer ${className || ''}`}>
             <div className="bg-image" style={{ backgroundImage: `url(${Image1})` }}></div>
@@ -55,8 +65,8 @@ function FooterHomeOne({ className }) {
                                 <div className="widget-content">
                                     <div className="text fs-5">Dubai, Sharjah, Ajman</div>
                                     <ul className="contact-info">
-                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:itguy.ae@gmail.com"> itguy.ae@gmail.com</Link ></li>
-                                        <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975">+971588996975</Link >
+                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:itguy.ae@gmail.com" onClick={handleQuoteClick}> itguy.ae@gmail.com</Link ></li>
+                                        <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975" onClick={handleQuoteClick}>+971588996975</Link >
                                             {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
                                         </li>
                                         <li className=''><i className='fa fa-clock '></i><p className='fs-6 text-white'>9AM-9PM</p></li>

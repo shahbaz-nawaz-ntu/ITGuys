@@ -33,6 +33,13 @@ function Header({ action, className, scroll }) {
         setMobileMenuOpen(prev => !prev);
     };
 
+    const handleQuoteClick = () => {
+  if (window.dataLayer) {
+    window.dataLayer.push({
+      event: "quote_button_click",
+    });
+  }
+    }
     return (
         <>
         <header className={`main-header header-style-three ${className || ''}`}>
@@ -50,7 +57,7 @@ function Header({ action, className, scroll }) {
 
                         <div className="top-right">
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:itguy.ae@gmail.com"> itguy.ae@gmail.com</Link ></li>
+                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:itguy.ae@gmail.com" onClick={handleQuoteClick}> itguy.ae@gmail.com</Link ></li>
                                 <li><i className="fa fa-map-marker"></i> Dubai, Sharjah, Ajman</li>
                             </ul>
                         </div>
@@ -114,7 +121,7 @@ function Header({ action, className, scroll }) {
                             <div className="contact-info-box">
                                 <i className="icon lnr-icon-phone-handset"></i>
                                 <span className="title">Call/Whatsapp Now</span>
-                                <a href="tel:+971588996975">+971588996975</a>
+                                <a href="tel:+971588996975" onClick={handleQuoteClick}>+971588996975</a>
                             </div>
                         </li>
                         <li>
@@ -122,7 +129,7 @@ function Header({ action, className, scroll }) {
                             <div className="contact-info-box">
                                 <span className="icon lnr-icon-envelope1"></span>
                                 <span className="title">Send Email</span>
-                                <a href="itguy.ae@gmail.com"> itguy.ae@gmail.com</a>
+                                <a href="itguy.ae@gmail.com" onClick={handleQuoteClick}> itguy.ae@gmail.com</a>
                             </div>
                         </li>
                         {/* <li> */}
@@ -140,6 +147,7 @@ function Header({ action, className, scroll }) {
                         <li><Link to="https://share.google/EtgQgHHTLNCrqz6zL "><i className="fab fa-google"></i></Link></li>
                                                     <li><Link to="https://wa.me/971588996975"
                                                         target="_blank"
+                                                        onClick={handleQuoteClick}
                                                         rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>
                                                     </Link></li>
                     </ul>
