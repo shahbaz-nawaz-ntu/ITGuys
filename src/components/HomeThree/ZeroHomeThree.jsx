@@ -41,7 +41,7 @@ function BannerSectionTwo({ className }) {
                                 
                                 <div className="btn-box animate-4">
                                     <a  href="#offer" className="theme-btn btn-style-one">
-                                    <span className="btn-title">Discover more</span></a>  
+                                    <span className="btn-title" id='about'>Discover more</span></a>  
                                 </div>
                             </div>
                         </div>

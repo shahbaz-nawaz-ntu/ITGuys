@@ -63,16 +63,11 @@ function HomeThreegridService() {
     },
 
     // --- New Services from Images ---
-    {
-      title: "Data Services",
-      description: "Data backup, disaster recovery, cloud services (Azure, AWS), and data center management.",
-      icon: DataServices,
-    },
-    {
-      title: "Cybersecurity",
-      description: "Network security (firewalls, IDS/IPS), endpoint protection, and threat response.",
-      icon: Cybersecurity,
-    },
+    // {
+    //   title: "Data Services",
+    //   description: "Data backup, disaster recovery, cloud services (Azure, AWS), and data center management.",
+    //   icon: DataServices,
+    // },
     {
       title: "Network Design & Deployment",
       description: "LAN design, Wi-Fi setup, enterprise networking, and SD-WAN solutions.",
@@ -93,10 +88,15 @@ function HomeThreegridService() {
       description: "24/7 IT support (onsite & remote), infrastructure outsourcing, and consultancy.",
       icon: ManagedIT,
     },
+    {
+      title: "Cybersecurity",
+      description: "Network security (firewalls, IDS/IPS), endpoint protection, and threat response.",
+      icon: Cybersecurity,
+    },
   ];
 
   return (
-    <section className="py-5">
+    <section className="py-5" id="services">
       <div className="container text-center">
         <h2 className="fw-bold mb-2">Our Services</h2>
         <p className="text-muted mb-5">

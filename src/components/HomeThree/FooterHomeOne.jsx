@@ -17,7 +17,7 @@ function FooterHomeOne({ className }) {
   // existing functionality (WhatsApp / popup / scroll)
 };
     return (
-        <footer className={`main-footer ${className || ''}`}>
+        <footer className={`main-footer ${className || ''}`} id='footer'>
             <div className="bg-image" style={{ backgroundImage: `url(${Image1})` }}></div>
 
             {/* Widgets Section */}

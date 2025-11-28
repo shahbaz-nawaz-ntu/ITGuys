@@ -95,7 +95,7 @@ const MobileMenu = () => {
                     <i className="fa fa-angle-down"></i>
                 </div>
             </li> */}
-           <li><a href='#contact'>Contact</a ></li>
+           <li><a href='#footer'>Contact</a ></li>
            {/* <li><a href="/company-profile.pdf" download>
   Download Company Profile (PDF)
 </a></li> */}
