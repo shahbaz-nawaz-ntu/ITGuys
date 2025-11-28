@@ -7,7 +7,7 @@ import AboutThumb from '../../assets/images/resource/thumb-1.jpg';
 function AboutHomeThree({ className }) {
     return (
         <>
-            <section className={`about-section-five pt-0 ${className || ''}`} id='about'>
+            <section id='about' className={`about-section-five pt-0 ${className || ''}`} >
                 <div className="auto-container">
                     <div className="row">
                         <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
