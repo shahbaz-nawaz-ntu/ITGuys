@@ -23,7 +23,7 @@ function BackToTop({ className }) {
             
             <div className={`scroll-to-top d-flex flex-column align-items-center gap-2${className || ''}`}>
                 <Link to="https://wa.me/971588996975" onClick={handleQuoteClick}><img className="whatsapp" src={whatsappicon}/>
-                <div className='fs-9'>Chat with us</div>
+                <div className='fs-9'>Chat Now</div>
                 </Link>
                 <Link className='scrol-top-btn' to="#">
                     <i className="fa fa-angle-up" style={{ color: '#fff' }} />
