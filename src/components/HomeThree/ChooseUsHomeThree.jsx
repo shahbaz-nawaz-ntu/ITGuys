@@ -27,7 +27,7 @@ function ChooseUs() {
                                                 <ul className="list-unstyled">
                                                     <li className="d-flex align-items-start mb-2">
                                                         <i className="fa fa-check-circle me-2 mt-1" style={{ color: '#87B73E' }} aria-hidden="true"></i>
-                                                        <span>Experience delivering corporate and enterprise-level projects</span>
+                                                        <span>10+ years Experience delivering corporate and enterprise-level projects</span>
                                                     </li>
                                                     <li className="d-flex align-items-start mb-2">
                                                         <i className="fa fa-check-circle me-2 mt-1" style={{ color: '#87B73E' }} aria-hidden="true"></i>
