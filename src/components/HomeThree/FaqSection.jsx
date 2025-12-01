@@ -80,7 +80,7 @@ function FaqSection() {
                       {item.question}
                     </h6>
                     {/* Simple Plus/Minus toggle */}
-                    <span className="fw-bold fs-5 text-primary">
+                    <span className="fw-bold fs-5 ">
                       {openIndex === index ? "−" : "+"}
                     </span>
                   </div>
