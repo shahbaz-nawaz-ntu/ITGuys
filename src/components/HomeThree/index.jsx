@@ -13,6 +13,7 @@ import CallToActionHomeTwo from './CallToActionHomeTwo.jsx';
 import ContactSectionTwo from './Contact.jsx';
 import HomeThreegridService from './HomeThreegridService.jsx';
 import FaqSection from './FaqSection.jsx';
+import GallerySection from './GallerySection.jsx';
 
 function HomeThree() {
     const [drawer, drawerAction] = useToggle(false);
@@ -29,6 +30,7 @@ function HomeThree() {
             <VideoHomeTwo />
             <OfferSectionTwo />
             <ChooseUs />
+            <GallerySection />
             <CallToActionHomeTwo />
             <FaqSection />
             {/* <ContactSectionTwo /> */}
