@@ -157,7 +157,7 @@ function GallerySection() {
 
                 {/* Header */}
                 <div className="text-center mb-5">
-                    <h2 className="fw-bold mb-2">Our Recent Work</h2>
+                    <h2 className="fw-bold mb-2">Our recent work/ Gallery</h2>
                     <p className="text-muted">
                         Snapshots from our latest projects across Dubai and Sharjah.
                     </p>

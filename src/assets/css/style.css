@@ -9216,7 +9216,7 @@ Section Title
 ***/
 .why-choose-us-two {
   position: relative;
-  padding: 120px 0 70px;
+  /* padding: 120px 0 70px; */
 }
 .why-choose-us-two:before {
   position: absolute;
@@ -9231,7 +9231,7 @@ Section Title
 }
 .why-choose-us-two .content-column {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 .why-choose-us-two .content-column .inner-column {
   position: relative;
@@ -9277,7 +9277,7 @@ Section Title
 }
 .why-choose-us-two .image-column {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 .why-choose-us-two .image-column .image-box {
   position: relative;
@@ -9357,7 +9357,7 @@ Section Title
 }
 .why-choose-us-three .content-column {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 .why-choose-us-three .content-column .inner-column {
   position: relative;
