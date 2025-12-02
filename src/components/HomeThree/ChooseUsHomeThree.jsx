@@ -11,6 +11,7 @@ function ChooseUs() {
         <>
             <section className="why-choose-us-two pt-0" 
             // style={{ background: 'rgba(0,0,0,0.5)', color: '#fff' }}
+            id='choose-us'
             >
                 <div className="auto-container">
                     <div className="row">

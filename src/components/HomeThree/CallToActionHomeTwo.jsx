@@ -16,6 +16,7 @@ function CallToActionHomeTwo({ className }) {
         <section
             className={`call-to-action mb-40 alternate ${className || ''}`}
             style={{ backgroundImage: `url(${BackgroundImage})` }}
+            id='action'
         >
             <div className="auto-container">
                 <div className="title-box wow fadeInUp">

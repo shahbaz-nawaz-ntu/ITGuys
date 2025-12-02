@@ -7,7 +7,7 @@ function VideoHomeTwo({ className }) {
 
     return (
         <>
-            <section className={`video-section ${className || ''}`}>
+            <section className={`video-section ${className || ''}`} id='intro'>
                 <div className="auto-container">
                     <div className="outer-box">
                         <div className="title-box text-center">
