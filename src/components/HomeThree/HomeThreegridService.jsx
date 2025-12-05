@@ -17,6 +17,8 @@ import NetworkDesign from '../../assets/images/Service Icon/NetworkDesign.png';
 import StructuredCabling from '../../assets/images/Service Icon/StructuredCabling.png';
 import VoiceInfra from '../../assets/images/Service Icon/VoiceInfra.png';
 import ManagedIT from '../../assets/images/Service Icon/ManagedIT.png';
+import WebApp from "../../assets/images/Service Icon/web&app.png"
+import AI from "../../assets/images/Service Icon/AI.png"
 
 function HomeThreegridService() {
   
@@ -101,10 +103,35 @@ function HomeThreegridService() {
     },
     {
       title: "Cybersecurity",
-      icon: Cybersecurity,
+      icon: Cybersecurity ,
       details: "Network security (firewalls, IDS/IPS), endpoint protection, and threat response.",
       features: ["Firewall Setup", "Data Protection", "Threat Analysis"]
     },
+    {
+  title: "Web & App Development",
+  icon: WebApp,
+  details: "We design and develop modern, high-performance websites and mobile applications tailored to your business needs. From UX/UI design to backend development and deployment, we provide complete end-to-end digital solutions.",
+  features: [
+    "Custom Website Development",
+    "React, Next.js & MERN Stack Apps",
+    "iOS & Android Mobile Apps",
+    "API Development & Integration",
+    "E-commerce & CMS Solutions"
+  ]
+},
+    {
+  title: "AI Solutions",
+  icon: AI,
+  details: "We develop intelligent AI-powered solutions to automate workflows, enhance decision-making, and improve user experiences. Our services include chatbots, predictive models, automation tools, and custom AI integrations for businesses.",
+  features: [
+    "AI Chatbots & Virtual Assistants",
+    "Predictive Analytics & Machine Learning Models",
+    "Process Automation Tools",
+    "AI Integration for Business Systems",
+    "Data Extraction & Intelligent Insights"
+  ]
+},
+
   ];
 
   return (
@@ -126,7 +153,7 @@ function HomeThreegridService() {
             const isOpen = activeServiceIndex === i;
 
             return (
-              <div className="col-12 col-md-6 col-lg-4" key={i}>
+              <div className="col-12 col-md-6 col-lg-4 " key={i}>
                 {/* FIX 2: Removed 'h-100'. 
                   FIX 3: Added 'minHeight: 280px' so they look uniform when closed. 
                 */}
@@ -146,19 +173,11 @@ function HomeThreegridService() {
                     <h5 className="fw-bold">{service.title}</h5>
                   </div>
 
-                  {/* Button Section */}
-                  <div className="mt-auto text-center">
-                    <button 
-                      className={`btn btn-sm rounded-pill px-4 ${isOpen ? 'btn-outline-danger' : 'btn-outline-primary'}`}
-                      onClick={() => toggleService(i)}
-                    >
-                      {isOpen ? "Close Details" : "View Details"}
-                    </button>
-                  </div>
+                  
 
                   {/* Details Section */}
                   {isOpen && (
-                    <div className="mt-4 pt-3 border-top text-start animate__animated animate__fadeIn">
+                    <div className="mb-4 pt-3 border-top text-start animate__animated animate__fadeIn">
                       <p className="text-muted small mb-3">
                         {service.details}
                       </p>
@@ -172,6 +191,17 @@ function HomeThreegridService() {
                       )}
                     </div>
                   )}
+
+
+                  {/* Button Section */}
+                  <div className="mt-auto text-center">
+                    <button 
+                      className={`btn btn-sm rounded-pill px-4 ${isOpen ? 'btn-outline-danger' : 'btn-outline-primary'}`}
+                      onClick={() => toggleService(i)}
+                    >
+                      {isOpen ? "Close Details" : "View Details"}
+                    </button>
+                  </div>
 
                 </div>
               </div>

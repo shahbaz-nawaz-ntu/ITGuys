@@ -5001,7 +5001,7 @@ Section Title
   padding: 120px 0 70px;
 }
 .about-section-five:before {
-  position: absolute;
+  /* position: absolute;
   left: -210px;
   top: -390px;
   height: 100%;
@@ -5009,7 +5009,7 @@ Section Title
   background-image: url(../images/icons/pattern-7.png);
   background-repeat: no-repeat;
   background-position: center left;
-  content: "";
+  content: ""; */
 }
 .about-section-five .content-column {
   position: relative;

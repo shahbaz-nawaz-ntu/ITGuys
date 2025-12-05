@@ -20,6 +20,16 @@ Copyright (c) 2015 Daniel Eden
     }
   }
 
+
+  .bg-btn-service {
+    background-color: rgb(233, 106, 106);
+    /* border: 1px solid red; */
+  }
+
+  .btn-service{
+    background-color: #59b473;
+  }
+
 /* Hide small logo by default */
 .logo-small {
   display: none !important;
@@ -1445,6 +1455,19 @@ Copyright (c) 2015 Daniel Eden
     transform: translateY(0);
   }
 }
+
+.service-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.service-details.open {
+  max-height: 500px; /* enough height for your text */
+  opacity: 1;
+}
+
 
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
