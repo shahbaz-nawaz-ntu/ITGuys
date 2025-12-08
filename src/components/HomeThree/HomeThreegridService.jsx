@@ -135,7 +135,7 @@ function HomeThreegridService() {
   ];
 
   return (
-    <section className="py-5" id="services">
+    <section className="" id="services">
       <div className="container">
         
         <div className="text-center mb-5">

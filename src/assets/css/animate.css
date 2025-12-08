@@ -20,6 +20,12 @@ Copyright (c) 2015 Daniel Eden
     }
   }
 
+  @media (max-width: 800px) {
+  .hide-on-800 {
+    display: none !important;
+  }
+}
+
 
   .bg-btn-service {
     background-color: rgb(233, 106, 106);

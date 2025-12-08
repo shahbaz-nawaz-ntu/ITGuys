@@ -46,7 +46,7 @@ function AboutHomeThree({ className }) {
                         </div>
 
                         {/* Image Column */}
-                        <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+                        <div className="image-column hide-on-800 col-xl-6 col-lg-5 col-md-12 col-sm-12 ">
                             <div className="inner-column">
                                 <figure className="image-1 overlay-anim wow fadeInUp">
                                     <img className='' src={AboutImage1} alt="About 9"/>
