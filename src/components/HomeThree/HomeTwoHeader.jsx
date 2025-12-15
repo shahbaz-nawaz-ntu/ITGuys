@@ -57,7 +57,7 @@ function Header({ action, className, scroll }) {
 
                         <div className="top-right">
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:itguy.ae@gmail.com" onClick={handleQuoteClick}> itguy.ae@gmail.com</Link ></li>
+                                <li><i className="fa fa-envelope"></i> <Link  to="mailto:support@itguy.ae" onClick={handleQuoteClick}> support@itguy.ae</Link ></li>
                                 <li><i className="fa fa-map-marker"></i> Dubai, Sharjah, Ajman</li>
                             </ul>
                         </div>
@@ -129,7 +129,7 @@ function Header({ action, className, scroll }) {
                             <div className="contact-info-box">
                                 <span className="icon lnr-icon-envelope1"></span>
                                 <span className="title">Send Email</span>
-                                <a href="itguy.ae@gmail.com" onClick={handleQuoteClick}> itguy.ae@gmail.com</a>
+                                <a href="support@itguy.ae" onClick={handleQuoteClick}> support@itguy.ae</a>
                             </div>
                         </li>
                         {/* <li> */}

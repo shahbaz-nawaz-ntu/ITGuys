@@ -65,7 +65,7 @@ function FooterHomeOne({ className }) {
                                 <div className="widget-content">
                                     <div className="text fs-5">Dubai, Sharjah, Ajman</div>
                                     <ul className="contact-info">
-                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:itguy.ae@gmail.com" onClick={handleQuoteClick}> itguy.ae@gmail.com</Link ></li>
+                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:support@itguy.ae" onClick={handleQuoteClick}> support@itguy.ae</Link ></li>
                                         <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975" onClick={handleQuoteClick}>+971588996975</Link >
                                             {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
                                         </li>
