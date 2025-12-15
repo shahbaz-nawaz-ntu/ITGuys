@@ -61,6 +61,11 @@ import Img057 from '../../assets/images/Gallery images/gallery-057.jpeg';
 import Img058 from '../../assets/images/Gallery images/gallery-058.jpeg';
 import Img059 from '../../assets/images/Gallery images/gallery-059.jpeg';
 import Img060 from '../../assets/images/Gallery images/gallery-060.jpeg';
+import Img061 from '../../assets/images/Gallery images/gallery-061.jpeg';
+import Img062 from '../../assets/images/Gallery images/gallery-062.jpeg';
+import Img063 from '../../assets/images/Gallery images/gallery-063.jpeg';
+import Img064 from '../../assets/images/Gallery images/gallery-064.jpeg';
+import Img065 from '../../assets/images/Gallery images/gallery-065.jpeg';
 
 function GallerySection() {
     // CONFIGURATION: How many images to show initially (two rows)
@@ -75,11 +80,11 @@ function GallerySection() {
 
     // Full list of gallery images (imported above)
     const projects = [
-        { id: 1, image: Img001, title: 'Gallery Image 1' },
-        { id: 2, image: Img002, title: 'Gallery Image 2' },
-        { id: 3, image: Img003, title: 'Gallery Image 3' },
-        { id: 4, image: Img004, title: 'Gallery Image 4' },
-        { id: 5, image: Img005, title: 'Gallery Image 5' },
+        { id: 1, image: Img001, title: 'Gallery Image 1', inProgress: true },
+        { id: 2, image: Img002, title: 'Gallery Image 2', inProgress: false },
+        { id: 3, image: Img003, title: 'Gallery Image 3', inProgress: true },
+        { id: 4, image: Img004, title: 'Gallery Image 4', inProgress: false },
+        { id: 5, image: Img005, title: 'Gallery Image 5', inProgress: true },
         { id: 6, image: Img006, title: 'Gallery Image 6' },
         { id: 7, image: Img007, title: 'Gallery Image 7' },
         { id: 8, image: Img008, title: 'Gallery Image 8' },
@@ -134,7 +139,12 @@ function GallerySection() {
         { id: 57, image: Img057, title: 'Gallery Image 57' },
         { id: 58, image: Img058, title: 'Gallery Image 58' },
         { id: 59, image: Img059, title: 'Gallery Image 59' },
-        { id: 60, image: Img060, title: 'Gallery Image 60' }
+        { id: 60, image: Img060, title: 'Gallery Image 60' },
+        { id: 61, image: Img061, title: 'Gallery Image 60' },
+        { id: 62, image: Img062, title: 'Gallery Image 60' },
+        { id: 63, image: Img063, title: 'Gallery Image 60' },
+        { id: 64, image: Img064, title: 'Gallery Image 60' },
+        { id: 65, image: Img065, title: 'Gallery Image 60' },
     ];
 
     // Shuffle the projects once on component mount so each page load shows a random order.
@@ -183,6 +193,13 @@ function GallerySection() {
                                 {/* <div className="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-2 text-center">
                                     <small className="fw-bold">{item.title}</small>
                                 </div> */}
+
+                                {/* In Progress Tag */}
+                                {item.inProgress && (
+                                    <div className="position-absolute top-0 end-0 m-2 px-3 py-1 bg-warning text-dark fw-bold rounded-pill shadow-sm" style={{ fontSize: '0.8rem', zIndex: 10 }}>
+                                        In Progress
+                                    </div>
+                                )}
                             </div>
 
                         </div>
