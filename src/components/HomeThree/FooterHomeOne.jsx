@@ -8,108 +8,98 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function FooterHomeOne({ className }) {
 
     const handleQuoteClick = () => {
-  if (window.dataLayer) {
-    window.dataLayer.push({
-      event: "quote_button_click",
-    });
-  }
+        if (window.dataLayer) {
+            window.dataLayer.push({
+                event: "quote_button_click",
+            });
+        }
 
-  // existing functionality (WhatsApp / popup / scroll)
-};
+        // existing functionality (WhatsApp / popup / scroll)
+    };
     return (
-        <footer className={`main-footer ${className || ''}`} id='footer'>
-            <div className="bg-image" style={{ backgroundImage: `url(${Image1})` }}></div>
+        <footer className={`main-footer ${className || ''}`} id='footer' style={{ backgroundColor: 'var(--theme-color1)', color: '#fff' }}>
+            {/* Removed background image for cleaner look, or keep with overlay if needed */}
+            {/* <div className="bg-image" style={{ backgroundImage: `url(${Image1})` }}></div> */}
 
             {/* Widgets Section */}
-            <div className="widgets-section">
-                <div className="auto-container w-100">
-                    <div className="d-flex align-item-center justify-content-between flex-xl-row flex-column ">
+            <div className="widgets-section py-5" style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
+                <div className="auto-container">
+                    <div className="row g-4 justify-content-between">
+
                         {/* Footer Column - About */}
-                        <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12 ">
+                        <div className="col-lg-4 col-md-6 col-sm-12 order-1">
                             <div className="footer-widget about-widget">
-                                <div className="logo">
-                                    <Link to="/"><img src={logo1} alt="Logo" /></Link >
-                                    {/* <span className='text-sm ml-sm-90 ml-70   '>License No. SC242015901</span> */}
+                                <div className="logo mb-3">
+                                    <Link to="/"><img src={logo1} alt="Logo" style={{ maxWidth: '150px' }} /></Link>
                                 </div>
-                                {/* <div className="text fs-5">To deliver the best reliable solution in IT infrastructures, security systems, ELV solutions,
-                                    and help our clients to improve business efficiency.</div> */}
-                                    <div className="smallTextDis">Disclaimer !<br/>ITGuy.ae is a registered service provider authorized under UAE licensing authority. SC242015901 to deliver professional IT infrastructure and security surveillance solutions.
-                                    </div>
-                                {/* <ul className="social-icon-two">
-                                    <li><Link  to="#"><i className="fab fa-twitter"></i></Link ></li>
-                                    <li><Link  to="#"><i className="fab fa-facebook"></i></Link ></li>
-                                    <li><Link  to="#"><i className="fab fa-pinterest"></i></Link ></li>
-                                    <li><Link  to="#"><i className="fab fa-instagram"></i></Link ></li>
-                                </ul> */}
+                                <div className="text-white-50 small mb-3" style={{ lineHeight: '1.6' }}>
+                                    Disclaimer: ITGuy.ae is a registered service provider authorized under UAE licensing authority (SC242015901) to deliver professional IT infrastructure and security surveillance solutions.
+                                </div>
+                                <ul className="social-icon-two d-flex gap-3">
+                                    <li><Link to="https://www.facebook.com/share/19sKHxVvjn/?mibextidgit=wwXIfr" className="text-white hover:text-[var(--theme-color2)] transition-colors"><i className="fab fa-facebook-f"></i></Link></li>
+                                    <li><Link to="https://www.tiktok.com/@itguy.ae?_r=1&_t=ZS-91X9pJlL7aO" className="text-white hover:text-[var(--theme-color2)] transition-colors"><i className="fab fa-tiktok"></i></Link></li>
+                                    <li><Link to="https://share.google/EtgQgHHTLNCrqz6zL " className="text-white hover:text-[var(--theme-color2)] transition-colors"><i className="fab fa-google"></i></Link></li>
+                                    <li><Link to="https://wa.me/971588996975" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[var(--theme-color2)] transition-colors"><i className="fab fa-whatsapp"></i></Link></li>
+                                </ul>
                             </div>
                         </div>
 
-                        {/* Footer Column - Explore */}
-                        {/* <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <div className="footer-widget">
-                                <h3 className="widget-title">Explore</h3>
-                                <ul className="user-Link s">
-                                    <li><Link  to="#">About Company</Link ></li>
-                                    <li><Link  to="#">Meet the Team</Link ></li>
-                                    <li><Link  to="#">News & Media</Link ></li>
-                                    <li><Link  to="#">Our Projects</Link ></li>
-                                    <li><Link  to="#">Contact</Link ></li>
-                                </ul>
-                            </div>
-                        </div> */}
-
-                        {/* Footer Column - Contact */}
-                        <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <div className="footer-widget contact-widget">
-                                <h3 className="widget-title  fs-3">Contact us</h3>
+                        {/* Footer Column - Quick Links */}
+                        <div className="col-lg-2 col-md-6 col-sm-12 order-3 order-lg-2">
+                            <div className="footer-widget links-widget">
+                                <h5 className="widget-title mb-3 fw-bold text-white">Quick Links</h5>
                                 <div className="widget-content">
-                                    <div className="text fs-5">Dubai, Sharjah, Ajman</div>
-                                    <ul className="contact-info">
-                                        <li><i className="fa fa-envelope"></i> <Link to="mailto:support@itguy.ae" onClick={handleQuoteClick}> support@itguy.ae</Link ></li>
-                                        <li><i className="fa fa-phone-square"></i> <Link to="tel:+971588996975" onClick={handleQuoteClick}>+971588996975</Link >
-                                            {/* <Link className='ml-10' to="tel:+971588838616">+971588838616</Link > */}
+                                    <ul className="list-unstyled small d-flex flex-wrap gap-3 d-md-block">
+                                        <li className="mb-2">
+                                            <Link to="/" className="text-white-50 text-decoration-none hover:text-[var(--theme-color2)] transition-colors">Home</Link>
                                         </li>
-                                        <li className=''><i className='fa fa-clock '></i><p className='fs-6 text-white'>9AM-9PM</p></li>
+                                        <li className="mb-2">
+                                            <a href="#about" className="text-white-50 text-decoration-none hover:text-[var(--theme-color2)] transition-colors">About Us</a>
+                                        </li>
+                                        <li className="mb-2">
+                                            <a href="#services" className="text-white-50 text-decoration-none hover:text-[var(--theme-color2)] transition-colors">Services</a>
+                                        </li>
+                                        <li className="mb-2">
+                                            <a href="#contact" className="text-white-50 text-decoration-none hover:text-[var(--theme-color2)] transition-colors">Contact</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <ul className="social-icon-two d-flex flex-row align-items-center justify-content-xl-between flex-xl-column">
-                            <li><Link to="https://www.facebook.com/share/19sKHxVvjn/?mibextidgit=wwXIfr"><i className="fab fa-facebook"></i></Link ></li>
-                            <li><Link to="https://www.tiktok.com/@itguy.ae?_r=1&_t=ZS-91X9pJlL7aO"><i className="fab fa-tiktok"></i></Link></li>
-                            <li><Link to="https://share.google/EtgQgHHTLNCrqz6zL "><i className="fab fa-google"></i></Link></li>
-                            <li><Link to="https://wa.me/971588996975"
-                                target="_blank"
-                                rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>
-                            </Link></li>
-                        </ul>
-
-                        {/* Footer Column - Gallery */}
-                        {/* <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <div className="footer-widget gallery-widget">
-                                <h3 className="widget-title">Gallery</h3>
+                        {/* Footer Column - Contact */}
+                        <div className="col-lg-3 col-md-6 col-sm-12 order-2 order-lg-3">
+                            <div className="footer-widget contact-widget">
+                                <h5 className="widget-title mb-3 fw-bold text-white">Contact Us</h5>
                                 <div className="widget-content">
-                                    <div className="outer clearfix">
-                                        {[Portfolio1, Portfolio2, Portfolio3, Portfolio4, Portfolio5, Portfolio6].map((portfolio, index) => (
-                                            <figure className="image" key={index}>
-                                                <Link  to="#"><img src={portfolio} alt={`Portfolio ${index + 1}`} /></Link >
-                                            </figure>
-                                        ))}
-                                    </div>
+                                    <div className="text-white-50 mb-2 small"><i className="fas fa-map-marker-alt me-2 text-[var(--theme-color2)]"></i> Dubai, Sharjah, Ajman</div>
+                                    <ul className="contact-info list-unstyled small">
+                                        <li className="mb-2">
+                                            <i className="fas fa-envelope me-2 text-[var(--theme-color2)]"></i>
+                                            <Link to="mailto:support@itguy.ae" onClick={handleQuoteClick} className="text-white-50 text-decoration-none hover:text-[var(--theme-color2)] transition-colors">support@itguy.ae</Link>
+                                        </li>
+                                        <li className="mb-2">
+                                            <i className="fas fa-phone-alt me-2 text-[var(--theme-color2)]"></i>
+                                            <Link to="tel:+971588996975" onClick={handleQuoteClick} className="text-white-50 text-decoration-none hover:text-[var(--theme-color2)] transition-colors">+971 58 899 6975</Link>
+                                        </li>
+                                        <li className="mb-2">
+                                            <i className="fas fa-clock me-2 text-[var(--theme-color2)]"></i>
+                                            <span className="text-white-50">9:00 AM - 9:00 PM</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                        </div> */}
-                        {/* <MapSection /> */}
+                        </div>
+
                     </div>
                 </div>
             </div>
 
             {/* Footer Bottom */}
-            <div className="footer-bottom ">
-                <div className="auto-container d-flex justify-content-center bg-transparent">
-                    <div className="inner-container">
-                        <div className="copyright-text">&copy; 2025 All rights reserved. <Link to="/">itguy.ae</Link ></div>
+            <div className="footer-bottom py-3 bg-darker">
+                <div className="auto-container text-center">
+                    <div className="copyright-text small text-white-50">
+                        &copy; {new Date().getFullYear()} <Link to="/" className="text-white text-decoration-none hover:text-[var(--theme-color2)]">itguy.ae</Link>. All rights reserved.
                     </div>
                 </div>
             </div>
