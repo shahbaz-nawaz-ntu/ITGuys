@@ -18,6 +18,7 @@ import ManagedITImg from '../../assets/images/service images/WhatsApp Image 2025
 import CybersecurityImg from '../../assets/images/service images/WhatsApp Image 2025-12-17 at 11.20.49 PM (1).jpeg'; // Tentative
 import WebAppImg from '../../assets/images/service images/web-app-development-dubai.jpeg';
 import AIImg from '../../assets/images/service images/ai-solutions-chatbot-virtual-assistant-automation-office-dubai.jpeg';
+import SiraImg from '../../assets/images/service images/sira-approved-noc-dubai.jpeg';
 import { FaWhatsapp } from "react-icons/fa";
 
 
@@ -36,6 +37,13 @@ function HomeThreegridService() {
   };
 
   const services = [
+    {
+      title: "SIRA APPROVALS & NOCs",
+      image: SiraImg,
+      details: "We streamline the mandatory security regulatory requirements for businesses in Dubai. From initial license approvals to security system certifications, our experts ensure your facility meets SIRA (Security Industry Regulatory Agency) standards efficiently.",
+      features: ["SIRA Approvals", "NOCs", "Security System Certifications", "Remote Mobile Viewing Setup", "AMC & Maintenance"],
+      link: "https://wa.me/971588996975?text=Hello%2C+I+am+interested+in+SIRA+Approvals+services+from+ITGuy.ae.+Please+contact+me"
+    },
     {
       title: "CCTV Camera Installation",
       image: CCTVImg,
@@ -106,13 +114,13 @@ function HomeThreegridService() {
       features: ["Cat6 / Cat6A Network Cabling", "Fiber Optic Cabling", "Patch Panels & Server Rack Setup"],
       link: "https://wa.me/971588996975?text=Hello%2C+I+am+interested+in+Structured+Cabling+services+for+my+office.+Kindly+share+details"
     },
-    {
-      title: "Voice Infrastructure",
-      image: VoiceInfraImg,
-      details: "Deployment of internal communication and voice solutions integrated with your IT network.",
-      features: ["Internal Comms", "Voice Integration"],
-      link: "https://wa.me/971588996975?text=Hi%2C+I+want+to+know+more+about+Voice+Infrastructure+services+for+my+business.+Please+contact+me"
-    },
+    // {
+    //   title: "Voice Infrastructure",
+    //   image: VoiceInfraImg,
+    //   details: "Deployment of internal communication and voice solutions integrated with your IT network.",
+    //   features: ["Internal Comms", "Voice Integration"],
+    //   link: "https://wa.me/971588996975?text=Hi%2C+I+want+to+know+more+about+Voice+Infrastructure+services+for+my+business.+Please+contact+me"
+    // },
     {
       title: "Managed IT Services",
       image: ManagedITImg,
