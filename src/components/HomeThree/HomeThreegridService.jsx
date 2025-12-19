@@ -18,6 +18,7 @@ import ManagedITImg from '../../assets/images/service images/WhatsApp Image 2025
 import CybersecurityImg from '../../assets/images/service images/WhatsApp Image 2025-12-17 at 11.20.49 PM (1).jpeg'; // Tentative
 import WebAppImg from '../../assets/images/service images/web-app-development-dubai.jpeg';
 import AIImg from '../../assets/images/service images/ai-solutions-chatbot-virtual-assistant-automation-office-dubai.jpeg';
+import { FaWhatsapp } from "react-icons/fa";
 
 
 function HomeThreegridService() {
@@ -204,11 +205,12 @@ function HomeThreegridService() {
                       {/* 2. WhatsApp Link */}
                       <a
                         href={service.link}
-                        className="btn btn-sm btn-success flex-grow-1 text-white"
+                        className="btn btn-sm btn-success flex-grow-1 text-white d-flex align-items-center justify-content-center gap-2"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Inquire now
+                        <FaWhatsapp />
+                        <span>Inquire now</span>
                       </a>
                     </div>
                   </div>

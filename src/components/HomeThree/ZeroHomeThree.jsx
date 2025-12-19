@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -24,28 +24,30 @@ const swiperOptions = {
 
 function BannerSectionTwo({ className }) {
     const [isOpen, setOpen] = useState(false);
-    
+
     return (
         <>
             <section className={`banner-section-two ${className || ''}`} id='home'>
                 <Swiper {...swiperOptions} className="banner-carousel owl-theme">
                     {/* Slide Item 1 */}
                     {/* <SwiperSlide className="slide-item"> */}
-                    <div className="slide-item">
-                        <div className="bg-image" style={{ backgroundImage: `url(${Image1})`, filter: "blur(5px)"}}></div>
-                        <div className="auto-container ">
+                    <div className="slide-item" style={{ backgroundColor: "#f5f7f2" }}>
+                        <div className=""
+                        // style={{ backgroundImage: `url(${Image1})`, filter: "blur(5px)"}}
+                        ></div>
+                        <div className="auto-container">
                             <div className="content-box">
-                                <span className="animate-2 texxt fs-5 ">Reliable setup, fast support, and smart protection <br/> for homes, offices, and commercial spaces.
-</span>
+                                <span className="animate-2 texxt fs-5 ">Reliable setup, fast support, and smart protection <br /> for homes, offices, and commercial spaces.
+                                </span>
                                 <h1 className="title animate-3">Professional IT & Security System Installation in Dubai</h1>
-                                
+
                                 <div className="btn-box animate-4">
-                                    <a  href="#offer" className="theme-btn btn-style-one">
-                                    <span className="btn-title">Discover more</span></a>  
+                                    <a href="#offer" className="theme-btn btn-style-one">
+                                        <span className="btn-title">Discover more</span></a>
                                 </div>
                             </div>
                         </div>
-                    </div>    
+                    </div>
                     {/* </SwiperSlide> */}
 
                     {/* Slide Item 2 */}
