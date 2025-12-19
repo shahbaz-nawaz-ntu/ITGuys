@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import logo1 from "../../assets/images/logo.png";
-import Image1 from '../../assets/images/background/2.jpg';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
