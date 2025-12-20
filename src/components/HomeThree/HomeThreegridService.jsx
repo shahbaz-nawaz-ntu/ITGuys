@@ -39,6 +39,7 @@ function HomeThreegridService() {
   const services = [
     {
       title: "SIRA APPROVALS & NOCs",
+      subtitle: "Sira Approved & NOCs UAE Security System Certifications ",
       image: SiraImg,
       details: "We streamline the mandatory security regulatory requirements for businesses in Dubai. From initial license approvals to security system certifications, our experts ensure your facility meets SIRA (Security Industry Regulatory Agency) standards efficiently.",
       features: ["SIRA Approvals", "NOCs", "Security System Certifications", "Remote Mobile Viewing Setup", "AMC & Maintenance"],
@@ -46,6 +47,7 @@ function HomeThreegridService() {
     },
     {
       title: "CCTV Camera Installation",
+      subtitle: "Secure what matters most | reliable solutions | protect your premises today",
       image: CCTVImg,
       details: "We design and install CCTV surveillance systems for offices, warehouses, villas and commercial properties. Our solutions include IP cameras, analog cameras, NVR/DVR setup, remote mobile monitoring and complete system configuration.",
       features: ["Office CCTV Installation", "Villa & Building Surveillance", "IP & Analog Systems", "Remote Mobile Viewing Setup", "AMC & Maintenance"],
@@ -53,6 +55,7 @@ function HomeThreegridService() {
     },
     {
       title: "Access Control Systems",
+      subtitle: "Smart Entry | Advance control | professional installation ",
       image: AccessControlImg,
       details: "Secure your office, warehouse or facility with smart access control solutions including card, biometric and face recognition systems.",
       features: ["Door Access Control Systems", "Biometric & Face Recognition", "Magnetic Lock Installation", "RFID Card & PIN Access"],
@@ -60,6 +63,7 @@ function HomeThreegridService() {
     },
     {
       title: "Intercom Systems",
+      subtitle: "Know Who’s There Before You Open | Reliable Intercom Systems Installation ",
       image: IntercomImg,
       details: "Professional audio and video intercom systems for villas, offices and buildings. Seamless integration with gate and door access.",
       features: ["Audio & Video Intercom", "Villa Gate Intercom Systems", "Apartment Intercom Installation"],
@@ -67,6 +71,7 @@ function HomeThreegridService() {
     },
     {
       title: "Office Telephone Systems",
+      subtitle: "Clear Communication for Your Team | Modern Office Phone Solutions",
       image: TelephoneImg,
       details: "Installation of PABX, IP phone and VoIP systems for professional business communication.",
       features: ["PABX Installation", "IP Phone Systems", "SIP & VoIP Configuration"],
@@ -74,6 +79,7 @@ function HomeThreegridService() {
     },
     {
       title: "Attendance Machine",
+      subtitle: "Smart & accurate staff attendance | No more manual records",
       image: AttendanceImg,
       details: "Fingerprint, card and code-based attendance systems for accurate employee tracking.",
       features: ["Biometric Tracking", "Time Sheet Integration", "Access Logs"],
@@ -81,6 +87,7 @@ function HomeThreegridService() {
     },
     {
       title: "Speaker & PA Systems",
+      subtitle: "Announcements/background music | high quality sound clear audio",
       image: SpeakerImg,
       details: "Professional audio systems for offices, warehouses, schools and commercial spaces.",
       features: ["Public Address Systems", "Background Music Systems", "Warehouse Announcement Speakers"],
@@ -88,6 +95,7 @@ function HomeThreegridService() {
     },
     {
       title: "Light Fixing & Electrical",
+      subtitle: "Safe, Efficient Electrical Solutions | Reliable Light & Wiring Installation",
       image: LightFixingImg,
       details: "Commercial lighting installation and power setup as part of office and IT infrastructure projects.",
       features: ["Office Lighting Installation", "Power Points & Electrical Wiring", "Electrical Layout Implementation"],
@@ -95,6 +103,7 @@ function HomeThreegridService() {
     },
     {
       title: "Drawings & Layout Design",
+      subtitle: "Autocad 2D, ELV, MEP, SVG, SSD, SPC and more with approvals",
       image: DrawingImg,
       details: "Professional layout planning, structured drawings and project documentation for office IT and security systems.",
       features: ["IT Infrastructure Layout Drawings", "Network Planning & Design", "Project Technical Documentation"],
@@ -102,6 +111,7 @@ function HomeThreegridService() {
     },
     {
       title: "Network Design & Deployment",
+      subtitle: "Router & Firewall Configuration | WiFi Network Deployment | Secure Networks",
       image: NetworkDesignImg,
       details: "Complete office and enterprise network design and deployment.",
       features: ["Router & Firewall Configuration", "WiFi Network Deployment", "Secure Corporate Networks"],
@@ -109,6 +119,7 @@ function HomeThreegridService() {
     },
     {
       title: "Structured Cabling",
+      subtitle: "Cat6 / Cat6A Network Cabling | Fiber Optic Cabling | Patch Panels & Server Rack Setup",
       image: StructuredCablingImg,
       details: "Enterprise-grade data and voice cabling for corporate IT networks.",
       features: ["Cat6 / Cat6A Network Cabling", "Fiber Optic Cabling", "Patch Panels & Server Rack Setup"],
@@ -123,6 +134,7 @@ function HomeThreegridService() {
     // },
     {
       title: "Managed IT Services",
+      subtitle: "AMC, Monitoring & Maintenance, Onsite & Remote expert Support",
       image: ManagedITImg,
       details: "Professional IT support and AMC services for long-term system management.",
       features: ["Annual Maintenance Contracts (AMC)", "Network Monitoring & Maintenance", "Onsite & Remote Support"],
@@ -130,6 +142,7 @@ function HomeThreegridService() {
     },
     {
       title: "Cybersecurity",
+      subtitle: "Firewall Setup | Data Protection | Threat Analysis",
       image: CybersecurityImg,
       details: "Network security (firewalls, IDS/IPS), endpoint protection, and threat response.",
       features: ["Firewall Setup", "Data Protection", "Threat Analysis"],
@@ -137,6 +150,7 @@ function HomeThreegridService() {
     },
     {
       title: "Web & App Development",
+      subtitle: "Custom Website, React, Next.js & MERN Stack Apps | API Development & Integration",
       image: WebAppImg,
       details: "We design and develop modern, high-performance websites and mobile applications tailored to your business needs. From UX/UI design to backend development and deployment, we provide complete end-to-end digital solutions.",
       features: [
@@ -150,6 +164,7 @@ function HomeThreegridService() {
     },
     {
       title: "AI Solutions",
+      subtitle: "Chatbots & Virtual Assistants | Predictive Analytics & Automation Tools",
       image: AIImg,
       details: "We develop intelligent AI-powered solutions to automate workflows, enhance decision-making, and improve user experiences. Our services include chatbots, predictive models, automation tools, and custom AI integrations for businesses.",
       features: [
@@ -198,6 +213,7 @@ function HomeThreegridService() {
                   <div className="p-4 d-flex flex-column flex-grow-1">
                     <div className="text-center mb-3">
                       <h5 className="fw-bold">{service.title}</h5>
+                      <p className="text-muted">{service.subtitle}</p>
                     </div>
 
                     {/* Button Section */}
