@@ -179,6 +179,15 @@ function HomeThreegridService() {
 
   ];
 
+
+  const handleQuoteClick = () => {
+    if (window.dataLayer) {
+      window.dataLayer.push({
+        event: "quote_button_click",
+      });
+    }
+  };
+
   return (
     <section className="" id="services">
       <div className="container">
@@ -231,6 +240,7 @@ function HomeThreegridService() {
                         href={service.link}
                         className="btn btn-sm btn-success flex-grow-1 text-white d-flex align-items-center justify-content-center gap-2"
                         target="_blank"
+                        onClick={handleQuoteClick}
                         rel="noopener noreferrer"
                       >
                         <FaWhatsapp />
@@ -310,6 +320,7 @@ function HomeThreegridService() {
                     className="btn btn-success btn-lg text-white"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={handleQuoteClick}
                   >
                     <i className="bi bi-whatsapp me-2"></i>
                     Contact via WhatsApp
