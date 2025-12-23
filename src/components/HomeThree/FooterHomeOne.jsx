@@ -32,7 +32,7 @@ function FooterHomeOne({ className }) {
                                     <Link to="/"><img src={logo1} alt="Logo" style={{ maxWidth: '150px' }} /></Link>
                                 </div>
                                 <div className="text-white-50 small mb-3" style={{ lineHeight: '1.6' }}>
-                                    Disclaimer: ITGuy.ae is a registered service provider authorized under UAE licensing authority (SC242015901) to deliver professional IT infrastructure and security surveillance solutions.
+                                    Disclaimer: ITGuy.ae is a registered service provider authorized under UAE licensing authority to deliver professional IT infrastructure and security surveillance solutions.
                                 </div>
                                 <ul className="social-icon-two d-flex gap-3">
                                     <li><Link to="https://www.facebook.com/share/19sKHxVvjn/?mibextidgit=wwXIfr" className="text-white hover:text-[var(--theme-color2)] transition-colors"><i className="fab fa-facebook-f"></i></Link></li>
@@ -83,7 +83,7 @@ function FooterHomeOne({ className }) {
                                         </li>
                                         <li className="mb-2">
                                             <i className="fas fa-clock me-2 text-[var(--theme-color2)]"></i>
-                                            <span className="text-white-50">9:00 AM - 9:00 PM</span>
+                                            <span className="text-white-50">10:00 AM - 10:00 PM</span>
                                         </li>
                                     </ul>
                                 </div>
