@@ -314,7 +314,7 @@ function HomeThreegridService() {
                   </div>
                 )}
 
-                <div className="d-grid gap-2 mt-4">
+                {/* <div className="d-grid gap-2 mt-4">
                   <a
                     href={selectedService.link}
                     className="btn btn-success btn-lg text-white"
@@ -324,11 +324,11 @@ function HomeThreegridService() {
                   >
                     <i className="bi bi-whatsapp me-2"></i>
                     Contact via WhatsApp
-                  </a>
-                  {/* <button className="btn btn-outline-secondary" onClick={closeModal}>
+                  </a> */}
+                {/* <button className="btn btn-outline-secondary" onClick={closeModal}>
                     Close
                   </button> */}
-                </div>
+                {/* </div> */}
               </div>
             </div>
           </div>

@@ -75,7 +75,7 @@ function FooterHomeOne({ className }) {
                                     <ul className="contact-info list-unstyled small">
                                         <li className="mb-2">
                                             <i className="fas fa-envelope me-2 text-[var(--theme-color2)]"></i>
-                                            <Link to="mailto:support@itguy.ae" onClick={handleQuoteClick} className="text-white-50 text-decoration-none hover:text-[var(--theme-color2)] transition-colors">support@itguy.ae</Link>
+                                            <Link to="mailto:itguy.ae@gmail.com" onClick={handleQuoteClick} className="text-white-50 text-decoration-none hover:text-[var(--theme-color2)] transition-colors">itguy.ae@gmail.com</Link>
                                         </li>
                                         <li className="mb-2">
                                             <i className="fas fa-phone-alt me-2 text-[var(--theme-color2)]"></i>
